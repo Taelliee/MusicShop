@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right,
+        rgb(222, 104, 74),
+        rgb(62, 134, 89),
+        rgb(36, 112, 188),
+        rgb(201, 76, 76));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* form */
+form {
+    background-color: rgba(248, 225, 208, 0.759);
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: rgb(62, 134, 89);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(48, 105, 70);
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+    box-sizing: border-box;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    border-color: rgba(222, 104, 74, 0.892);
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffffe7;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-color: rgb(203, 86, 57);
+}
+
+th {
+    background-color: rgba(222, 104, 74, 0.892);
+    color: rgb(255, 249, 244);
+}
