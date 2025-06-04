@@ -84,63 +84,63 @@
     <div class="menu-container">
         <div class="menu menu1">
             <h1>Таблици</h1>
-            <a href="select_type_of_item.php">Вид стока</a><br>
-            <a href="select_genre.php">Жанр</a><br>
-            <a href="select_label.php">Музикална компания</a><br>
-            <a href="select_artist.php">Изпълнител</a><br> 
-            <a href="select_item.php">Стока</a><br>
-            <a href="select_client.php">Клиент</a><br>
-            <a href="select_position.php">Позиция</a><br>
-            <a href="select_employee.php">Служител</a><br>
-            <a href="select_sale.php">Продажба</a><br>
-            <a href="select_sale_item.php">Продажби и Стоки</a><br>
+            <a href="selects/select_type_of_item.php">Вид стока</a><br>
+            <a href="selects/select_genre.php">Жанр</a><br>
+            <a href="selects/select_label.php">Музикална компания</a><br>
+            <a href="selects/select_artist.php">Изпълнител</a><br> 
+            <a href="selects/select_item.php">Стока</a><br>
+            <a href="selects/select_client.php">Клиент</a><br>
+            <a href="selects/select_position.php">Позиция</a><br>
+            <a href="selects/select_employee.php">Служител</a><br>
+            <a href="selects/select_sale.php">Продажба</a><br>
+            <a href="selects/select_sale_item.php">Продажби и Стоки</a><br>
         </div>
         <div class="menu menu2">
             <h1>Меню за въвеждане</h1>
-            <a href="input_type_of_item.php">Въвеждане на вид стока</a><br>
-            <a href="input_genre.php">Въвеждане на жанр</a><br>
-            <a href="input_label.php">Въвеждане на музикална компания</a><br>
-            <a href="input_artist.php">Въвеждане на изпълнител</a><br>
-            <a href="input_item.php">Въвеждане на стока</a><br>
-            <a href="input_client.php">Въвеждане на клиент</a><br>
-            <a href="input_position.php">Въвеждане на позиция</a><br>
-            <a href="input_employee.php">Въвеждане на служител</a><br>
-            <a href="input_sale.php">Въвеждане на продажба</a><br>
-            <a href="input_sale_item.php">Въвеждане на Продажби и Стоки</a><br>
+            <a href="inputs/input_type_of_item.php">Въвеждане на вид стока</a><br>
+            <a href="inputs/input_genre.php">Въвеждане на жанр</a><br>
+            <a href="inputs/input_label.php">Въвеждане на музикална компания</a><br>
+            <a href="inputs/input_artist.php">Въвеждане на изпълнител</a><br>
+            <a href="inputs/input_item.php">Въвеждане на стока</a><br>
+            <a href="inputs/input_client.php">Въвеждане на клиент</a><br>
+            <a href="inputs/input_position.php">Въвеждане на позиция</a><br>
+            <a href="inputs/input_employee.php">Въвеждане на служител</a><br>
+            <a href="inputs/input_sale.php">Въвеждане на продажба</a><br>
+            <a href="inputs/input_sale_item.php">Въвеждане на Продажби и Стоки</a><br>
         </div>
         <div class="menu menu3">
             <h1>Меню за редактиране</h1>
-            <a href="update_type_of_item.php">Редактиране на вид стока</a><br>
-            <a href="update_genre.php">Редактиране на жанр</a><br>
-            <a href="update_label.php">Редактиране на музикална компания</a><br>
-            <a href="update_artist.php">Редактиране на изпълнител</a><br>
-            <a href="update_item.php">Редактиране на стока</a><br>
-            <a href="update_client.php">Редактиране на клиент</a><br>
-            <a href="update_position.php">Редактиране на позиция</a><br>
-            <a href="update_employee.php">Редактиране на служител</a><br>
-            <a href="update_sale.php">Редактиране на продажба</a><br>
-            <a href="update_sale_item.php">Редактиране на Продажби и Стоки</a><br>
+            <a href="updates/update_type_of_item.php">Редактиране на вид стока</a><br>
+            <a href="updates/update_genre.php">Редактиране на жанр</a><br>
+            <a href="updates/update_label.php">Редактиране на музикална компания</a><br>
+            <a href="updates/update_artist.php">Редактиране на изпълнител</a><br>
+            <a href="updates/update_item.php">Редактиране на стока</a><br>
+            <a href="updates/update_client.php">Редактиране на клиент</a><br>
+            <a href="updates/update_position.php">Редактиране на позиция</a><br>
+            <a href="updates/update_employee.php">Редактиране на служител</a><br>
+            <a href="updates/update_sale.php">Редактиране на продажба</a><br>
+            <a href="updates/update_sale_item.php">Редактиране на Продажби и Стоки</a><br>
         </div>
         <div class="menu menu4">
             <h1>Меню за изтриване</h1>
-            <a href="delete_type_of_item.php">Изтриване на вид стока</a><br>
-            <a href="delete_genre.php">Изтриване на жанр</a><br>
-            <a href="delete_label.php">Изтриване на музикална компания</a><br>
-            <a href="delete_artist.php">Изтриване на изпълнител</a><br>
-            <a href="delete_item.php">Изтриване на стока</a><br>
-            <a href="delete_client.php">Изтриване на клиент</a><br>
-            <a href="delete_position.php">Изтриване на позиция</a><br>
-            <a href="delete_employee.php">Изтриване на служител</a><br>
-            <a href="delete_sale.php">Изтриване на продажба</a><br>
-            <a href="delete_sale_item.php">Изтриване на Продажби и Стоки</a><br>
+            <a href="deletes/delete_type_of_item.php">Изтриване на вид стока</a><br>
+            <a href="deletes/delete_genre.php">Изтриване на жанр</a><br>
+            <a href="deletes/delete_label.php">Изтриване на музикална компания</a><br>
+            <a href="deletes/delete_artist.php">Изтриване на изпълнител</a><br>
+            <a href="deletes/delete_item.php">Изтриване на стока</a><br>
+            <a href="deletes/delete_client.php">Изтриване на клиент</a><br>
+            <a href="deletes/delete_position.php">Изтриване на позиция</a><br>
+            <a href="deletes/delete_employee.php">Изтриване на служител</a><br>
+            <a href="deletes/delete_sale.php">Изтриване на продажба</a><br>
+            <a href="deletes/delete_sale_item.php">Изтриване на Продажби и Стоки</a><br>
         </div>
         <div class="menu menu5">
             <h1>Меню за справки</h1>
-            <a href="query_sale_count_per_emp.php">Брой продажби на служители</a><br>
-            <a href="query_montly_turnover_by_genre.php">Месечен оборот по жанрове / музикална компания</a><br>
-            <a href="query_last_five_sales.php">Последните 5 издадени стоки по служител</a><br>
-            <a href="query_item_sold_to_client.php">Закупени стоки от клиент</a><br>
-            <a href="query_sales_in_data_range.php">Закупени стоки за период</a><br>
+            <a href="queries/query_sale_count_per_emp.php">Брой продажби на служители</a><br>
+            <a href="queries/query_montly_turnover_by_genre.php">Месечен оборот по жанрове / музикална компания</a><br>
+            <a href="queries/query_last_five_sales.php">Последните 5 издадени стоки по служител</a><br>
+            <a href="queries/query_item_sold_to_client.php">Закупени стоки от клиент</a><br>
+            <a href="queries/query_sales_in_data_range.php">Закупени стоки за период</a><br>
             <h1>Търсене</h1>
             <a href="search.php">Търсене (CD/DVD)</a><br>
             <h1>Създаване</h1>

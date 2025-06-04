@@ -79,7 +79,7 @@
 
 
         function backToIndexButton() {
-            echo '<button onclick="window.location.href=\'index.php\'" class="back-button">Начало</button>';
+            echo '<button onclick="window.location.href=\'../index.php\'" class="back-button">Начало</button>';
         }
 
         function generateUpdateForm($tableName, $id, $tableId): void {
