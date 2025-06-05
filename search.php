@@ -131,7 +131,7 @@
             }
         
             echo "</table>";
-            backToIndexButton();
+            backToIndexButtonOutsideFolders();
         }
         ?>
     </body>

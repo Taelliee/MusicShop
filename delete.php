@@ -38,7 +38,7 @@
                 }
 
                 $stmt->close();
-                backToIndexButton();
+                backToIndexButtonOutsideFolders();
             }
         ?>
 

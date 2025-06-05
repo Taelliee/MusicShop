@@ -82,7 +82,11 @@
             echo '<button onclick="window.location.href=\'../index.php\'" class="back-button">Начало</button>';
         }
 
-        function generateUpdateForm($tableName, $id, $tableId): void {
+        function backToIndexButtonOutsideFolders() {
+            echo '<button onclick="window.location.href=\'index.php\'" class="back-button">Начало</button>';
+        }
+
+        function generateUpdateForm($tableName, $id, $tableId){
             include "config.php";
             $query = "SELECT * FROM $tableName WHERE $tableId = ?";
             $stmt = $link->prepare($query);
@@ -96,7 +100,7 @@
                 return;
             }
 
-            echo "<form method='post' action='update.php'>";
+            echo "<form method='post' action='../update.php'>";
             foreach ($row as $column => $value) {
                 echo "<label for='$column'>$column:</label>";
                 echo "<input type='text' name='$column' value='$value'><br>";

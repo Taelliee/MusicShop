@@ -12,7 +12,7 @@
 
         selectAll($tableName);
     ?>
-    <form action="delete.php" method="post">
+    <form action="../delete.php" method="post">
         Пореден номер на позиция: <input type="number" name="id"> <br>
         <?php 
             echo "<input type='hidden' name='table' value='$tableName'>";

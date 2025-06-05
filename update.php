@@ -8,7 +8,7 @@
     <body>
         <?php
         include 'config.php';
-        include "functions.php";
+        include 'functions.php';
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $table = $_POST['table'];
             $id = $_POST['id'];
@@ -36,7 +36,7 @@
             } else {
                 echo "Error updating record.";
             }
-            backToIndexButton();
+            backToIndexButtonOutsideFolders();
         }
         ?>
     </body>
