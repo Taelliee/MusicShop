@@ -69,7 +69,7 @@ Design and implement a flexible and normalized web-based database system for a m
 
 ## 📌 Notes
 
-- All tables are created through PHP on first use — no need for phpMyAdmin
+- All tables are created through PHP via specific buttons — no need for phpMyAdmin
 - All inputs are handled via HTML forms
 - Styled with CSS for a clean and functional user experience
 - Built as part of a learning project to practice full-stack web development with PHP & SQL
